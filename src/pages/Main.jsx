@@ -24,7 +24,7 @@ Aos.init()
       <main className='flex flex-col'>
         <Home />
         <Sobre />
-        <Projetcts/>
+        <Experiencia/>
       </main>
       <footer></footer>
 
