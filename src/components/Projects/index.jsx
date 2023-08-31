@@ -3,11 +3,11 @@ import "./timeLine.css"
 
 const Projetcts = () => {
   return (
-      <div className='timeline'>
+      <div   className='timeline'>
 
-      <div className='container left-container '>
+      <div    className='container left-container  '>
         <img src="https://th.bing.com/th/id/OIP.KhEi6z8wYQZVa0IFYmaUXAHaHa?pid=ImgDet&rs=1" alt="" />
-        <div className='text-box'>
+        <div data-aos='fade-right' data-aos-duration='1000'data-aos-delay='300' className='text-box'>
           <h2>Project1</h2>
           <small>2018 - 2019</small>
           <p>project complect</p>
@@ -18,7 +18,7 @@ const Projetcts = () => {
 
       <div className='container right-container'>
         <img src="https://th.bing.com/th/id/OIP.KhEi6z8wYQZVa0IFYmaUXAHaHa?pid=ImgDet&rs=1" alt="" />
-        <div className='text-box'>
+        <div data-aos='fade-right' data-aos-duration='1000'data-aos-delay='300' className='text-box'>
           <h2>Project2</h2>
           <small>2018 - 2019</small>
           <p>project complect</p>
@@ -29,7 +29,7 @@ const Projetcts = () => {
 
       <div className='container left-container'>
         <img src="https://th.bing.com/th/id/OIP.KhEi6z8wYQZVa0IFYmaUXAHaHa?pid=ImgDet&rs=1" alt="" />
-        <div className='text-box'>
+        <div data-aos='fade-right' data-aos-duration='1000'data-aos-delay='300' className='text-box'>
           <h2>Project3</h2>
           <small>2018 - 2019</small>
           <p>project complect</p>
@@ -41,7 +41,7 @@ const Projetcts = () => {
 
       <div className='container right-container'>
         <img src="https://th.bing.com/th/id/OIP.KhEi6z8wYQZVa0IFYmaUXAHaHa?pid=ImgDet&rs=1" alt="" />
-        <div className='text-box'>
+        <div data-aos='fade-right' data-aos-duration='1000'data-aos-delay='300' className='text-box'>
           <h2>Project3</h2>
           <small>2018 - 2019</small>
           <p>project complect</p>
@@ -51,7 +51,7 @@ const Projetcts = () => {
 
       <div className='container left-container'>
         <img src="https://th.bing.com/th/id/OIP.KhEi6z8wYQZVa0IFYmaUXAHaHa?pid=ImgDet&rs=1" alt="" />
-        <div className='text-box'>
+        <div data-aos='fade-right' data-aos-duration='1000'data-aos-delay='300' className='text-box'>
           <h2>Project3</h2>
           <small>2018 - 2019</small>
           <p>project complect</p>
@@ -60,7 +60,7 @@ const Projetcts = () => {
       </div>
       <div className='container right-container'>
         <img src="https://th.bing.com/th/id/OIP.KhEi6z8wYQZVa0IFYmaUXAHaHa?pid=ImgDet&rs=1" alt="" />
-        <div className='text-box'>
+        <div data-aos='fade-right' data-aos-duration='1000'data-aos-delay='300' className='text-box'>
           <h2>Project3</h2>
           <small>2018 - 2019</small>
           <p>project complect</p>
@@ -69,7 +69,7 @@ const Projetcts = () => {
       </div>
       <div className='container left-container'>
         <img src="https://th.bing.com/th/id/OIP.KhEi6z8wYQZVa0IFYmaUXAHaHa?pid=ImgDet&rs=1" alt="" />
-        <div className='text-box'>
+        <div data-aos='fade-right' data-aos-duration='1000'data-aos-delay='300' className='text-box'>
           <h2>Project3</h2>
           <small>2018 - 2019</small>
           <p>project complect</p>
@@ -79,7 +79,7 @@ const Projetcts = () => {
 
       <div className='container right-container'>
         <img src="https://th.bing.com/th/id/OIP.KhEi6z8wYQZVa0IFYmaUXAHaHa?pid=ImgDet&rs=1" alt="" />
-        <div className='text-box'>
+        <div data-aos='fade-right' data-aos-duration='1000'data-aos-delay='300' className='text-box'>
           <h2>Project3</h2>
           <small>2018 - 2019</small>
           <p>project complect</p>
