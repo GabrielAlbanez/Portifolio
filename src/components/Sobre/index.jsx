@@ -15,7 +15,7 @@ const Sobre = () => {
           <h2 className='text-2xl'>Campinas, São Paulo</h2>
           <p className='text-xl'>Ola, autalmente estou cursando 2 cursos de ti, um providenciado pela Fiec e o outro curso na instituição Senac,pretendo me tornar futuramente um desenvolvedor Front-End,em meus 4 primeiros meses de vida ja consegui autar na area como freelancer com alguns projetos que serão apresentados nesse portifolio</p>
 
-          <button className=' flex mt-7 items-center gap-1 justify-center w-36 px-5 py-2 rounded-full border-black border-[2px] shadow-violet-300 transition shadow-xl hover:bg-zinc-900 hover:text-white animate-bounce '>Curriculo <AiOutlineCloudDownload size={30}/></button>
+          <button className=' flex mt-7 items-center gap-1 justify-center w-36 px-5 py-2 rounded-full border-black border-[2px] shadow-violet-300 transition shadow-xl hover:bg-zinc-900 hover:text-white animate-bounce-short '>Curriculo <AiOutlineCloudDownload size={30}/></button>
         </div>
         <div>
 

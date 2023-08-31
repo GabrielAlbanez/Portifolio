@@ -25,6 +25,7 @@ Aos.init()
         <Home />
         <Sobre />
         <Experiencia/>
+        <Projetcts/>
       </main>
       <footer></footer>
 
