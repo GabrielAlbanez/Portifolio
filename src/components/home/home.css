@@ -10,9 +10,16 @@
 
 @media screen and (min-width: 768px) {
     .writeText {
-        width: 65vw; /* Porcentagem da largura da viewport */
+        width: 62vw; /* Porcentagem da largura da viewport */
     }
 }
+
+@media screen and (min-width: 820px) {
+    .writeText {
+        width: 58vw; /* Porcentagem da largura da viewport */
+    }
+}
+
 
 
 @keyframes digitando{

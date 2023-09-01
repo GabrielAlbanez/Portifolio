@@ -8,12 +8,12 @@ import { AiOutlineGithub, AiFillLinkedin } from 'react-icons/ai';
 const Home = () => {
     return (
         <section id='home' className='flex flex-col w-[100%] border-b-[1px] h-[100vh] '>
-            <div className='flex items-center justify-center sm:justify-around h-[130%] pt-10 '>
+            <div className='flex items-center justify-center xl:justify-around h-[130%] pt-10 '>
                 <div className='h-[50vh] w-[60vh] flex flex-col justify-center '>
-                    <div className='flex flex-col items-center sm:items-start w-[100%]  gap-10 sm:p-10 md:h-[90%] h-[80%]'>
+                    <div className='flex flex-col items-center xl:items-start bg-slate-300 w-[100%]  gap-10 xl:p-10 md:h-[90%] h-[80%]'>
                         <h2 className='text-2xl'>OLA, EU SOU:</h2>
                         <h1 className='text-3xl sm:text-6xl  sm:pt-3 xl: writeText '>Gabriel Albanez</h1>
-                        <hr className='bg-violet-300 h-1 w-[70%] sm:w-[100%]  my-2' />
+                        <hr className='bg-violet-300 h-1 w-[70%] xl:w-[100%]  my-2' />
                         <h2 className='text-2xl'>DESENVOLVEDOR FRONT-END</h2>
 
                     </div>
