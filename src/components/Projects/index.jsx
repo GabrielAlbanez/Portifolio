@@ -3,6 +3,8 @@ import "./timeLine.css"
 
 const Projetcts = () => {
   return (
+    <div id='projetos'  className='flex flex-col gap-10'>
+      <h1 className='w-[100%] text-5xl text-center'>my projects </h1>
       <div   className='timeline'>
 
       <div    className='container left-container  '>
@@ -87,6 +89,7 @@ const Projetcts = () => {
         </div>
       </div>
 
+      </div>
       </div>
 
 

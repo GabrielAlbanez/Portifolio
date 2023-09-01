@@ -5,7 +5,7 @@ import ImagenZinha from '../Imagem';
 
 function Experiencia() {
     return (
-        <section id='conhecimentos' data-aos='fade-right' data-aos-duration='1000'data-aos-delay='300' className='flex flex-col  w-screen  items-center h-[57vh]'>
+        <section id='conhecimentos' data-aos='fade-right' data-aos-duration='1000'data-aos-delay='300' className='flex flex-col  w-screen  items-center h-[47vh]'>
             <h1 className='text-4xl'>Conhecimentos</h1>
             <div className='w-[80%] flex flex-wrap justify-between items-center h-[55%] mt-10 p-10'>
                 <ImagenZinha width={40} height={40} url={'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'} />
