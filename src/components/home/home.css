@@ -1,12 +1,23 @@
 
 
-.writeText {
+
+.writeText2 {
     border-right: 3px solid;
     width: 13ch;
     white-space: nowrap;
     overflow: hidden;
-    animation: digitando 2s steps(15), piscando 0.5s infinite step-end alternate;
 }
+
+@media screen and (min-width: 1600px) {
+    .writeText2 {
+        border-right: 3px solid;
+        width: 13ch;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: digitando 2s steps(15), piscando 0.5s infinite step-end alternate;
+    }
+}
+
 
 @media screen and (min-width: 768px) {
     .writeText {
@@ -19,6 +30,33 @@
         width: 58vw; /* Porcentagem da largura da viewport */
     }
 }
+
+
+@media screen and (min-width: 837px) {
+    .writeText {
+        width: 58vw; /* Porcentagem da largura da viewport */
+    }
+}
+
+@media screen and (min-width: 1279px) {
+    .writeText {
+        width: 39vw; /* Porcentagem da largura da viewport */
+    }
+}
+
+
+@media screen and (min-width: 1173px) {
+    .writeText {
+        width: 41vw; /* Porcentagem da largura da viewport */
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .writeText {
+        width: 28vw; /* Porcentagem da largura da viewport */
+    }
+}
+
 
 
 
