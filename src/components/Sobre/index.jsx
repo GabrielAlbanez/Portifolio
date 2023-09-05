@@ -2,11 +2,30 @@ import React from 'react'
 import Person from "../../Assets/imgs/imgPortifolio.png"
 
 import { AiOutlineCloudDownload } from 'react-icons/ai';
+import { useTema } from '../../context/Tema';
 
 const Sobre = () => {
+
+
+  const { setTema, setColor, temaNavbar, setTemaNavbar, darkModeActive, setDarkModeActive } = useTema()
+
+
+  const colorExperience = darkModeActive
+  ? 'bg-zinc-900 text-white '
+  : 'bg-white text-black border-b-[2px]';
+
+  const bordExperience = darkModeActive
+  ? 'rounded-lg shadow-md shadow-violet-300 '
+  : 'rounded-lg shadow-xl';
+
+  const colorButtonHome = darkModeActive ? 
+    'hover:bg-white hover:text-black hover: animate-bounce-short border-white border-[2px] '
+    : 'hover:bg-zinc-900 hover:text-white animate-bounce-short border-black border-[2px] '
+
+
   return (
-    <section data-aos='fade-right' data-aos-duration='1000'data-aos-delay='300' id='sobre' className='flex   w-screen justify-center gap-24   items-center  h-[90vh] '>
-      <div className='rounded-lg shadow-xl flex items-center justify-between px-48 w-[95%] h-[90%] '>
+    <section data-aos='fade-right' data-aos-duration='1000'data-aos-delay='300' id='sobre' className={`flex   w-screen justify-center gap-24   items-center  h-[90vh] ${colorExperience}`}>
+      <div className={`${bordExperience} flex items-center justify-between px-48 w-[95%] h-[90%] `}>
         <div className=''>
           <img src={Person} alt="" className='object-cover w-[60vh] h-[100%] rounded-lg  shadow-violet-300 shadow-xl' />
         </div>
