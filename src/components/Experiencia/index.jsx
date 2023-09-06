@@ -2,12 +2,21 @@ import React from 'react'
 
 import { BiLogoReact } from 'react-icons/bi';
 import ImagenZinha from '../Imagem';
+import { useTema } from '../../context/Tema';
 
 function Experiencia() {
+
+    const { setTema, setColor, temaNavbar, setTemaNavbar, darkModeActive, setDarkModeActive } = useTema()
+
+    
+    const colorExperiencia = darkModeActive
+    ? 'bg-zinc-900 text-white '
+    : 'bg-white text-black    ';
+
     return (
-        <section id='conhecimentos' data-aos='fade-right' data-aos-duration='1000'data-aos-delay='300' className='flex flex-col  w-screen  items-center h-[47vh]'>
+        <section  id='conhecimentos' data-aos='fade-right' data-aos-duration='1000'data-aos-delay='300' data-aos-once='true' className={`flex flex-col   w-screen  items-center h-[47vh] ${colorExperiencia} `}>
             <h1 className='text-4xl'>Conhecimentos</h1>
-            <div className='w-[80%] flex flex-wrap justify-between items-center h-[55%] mt-10 p-10'>
+            <div className='w-[100%] sm:w-[80%] flex flex-wrap gap-7 sm:gap-10 justify-between px-4 sm:px-0 items-center h-[55%] mt-10 sm:p-10'>
                 <ImagenZinha width={40} height={40} url={'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'} />
                 <ImagenZinha width={40} height={40} url={'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png'} />
                 <ImagenZinha width={40} height={40} url={'https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-1.png'} />

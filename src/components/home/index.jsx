@@ -29,7 +29,7 @@ const Home = () => {
         <section id='home' className={`flex flex-col w-[100%] border-b-[1px] h-[100vh] ${colorHome} transition-all duration-1000 ease-in-out transform ${
             darkModeActive ? 'scale-100' : ''
           }`}>
-            <div className='flex items-center justify-center xl:justify-around h-[130%] pt-10 '>
+            <div className='flex items-center justify-center xl:justify-around h-[170%] sm:h-[130%] pt-10 '>
                 <div className='h-[50vh] w-[60vh] flex flex-col justify-center '>
                     <div className='flex flex-col items-center xl:items-start  w-[100%]  gap-10 xl:p-10 md:h-[90%] h-[80%]'>
                         <h2 className='text-2xl'>OLA, EU SOU:</h2>
